@@ -1,0 +1,48 @@
+body{
+    margin :0;
+}
+
+a {           /* a 태그들이 붉은 색이됨*/       
+    /*color:blueviolet;*/
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding: 20px;
+}
+
+.saw{   /* class 선택자*/
+    color:gray;
+}
+#active{ /* id 선택자 */   
+    color:red;
+}
+/* 우선도 : id >> class >> 태그*/
+
+ol{
+    border-right: 1px solid gray;
+    width:100px;
+    margin:0;
+    padding :20px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding-bottom: 50px;
+}
+
+@media (max-width:800px) {
+    #grid{
+        display: block;
+    }
+    ol{
+        border-right: none;
+    }
+    
+}
