@@ -10,6 +10,14 @@
 
 <body>  <!-- 문서의 내용물-->
     <h1><a href="index.html">WEB</a></h1>
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor='blue';
+        document.querySelector('body').style.color='white';
+    ">
+    <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';
+    ">
 
     <div id="grid">
     <ol> <!-- Orderd list-->
