@@ -4,20 +4,19 @@ body{
 
 a {           /* a 태그들이 붉은 색이됨*/       
     /*color:blueviolet;*/
-    color: black;
-    text-decoration: none;
+    color: blue;
 }
 
 h1 {
     font-size: 45px;
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid blue;
     margin:0;
     padding: 20px;
 }
 
 .saw{   /* class 선택자*/
-    color:gray;
+    color:blue;
 }
 #active{ /* id 선택자 */   
     color:red;
@@ -25,7 +24,7 @@ h1 {
 /* 우선도 : id >> class >> 태그*/
 
 ol{
-    border-right: 1px solid gray;
+    border-right: 1px solid blue;
     width:100px;
     margin:0;
     padding :20px;
