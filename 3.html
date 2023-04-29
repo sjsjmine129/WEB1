@@ -5,19 +5,14 @@
     <meta charset="utf-8">   <!-- utf-8로 브라우저를 읽어라-->
 
     <link rel="stylesheet" href="style.css">
+    <script src="color.js"></script>
 </head>
 
 
-<body style="background-color: powderblue;color:white;">  <!-- 문서의 내용물-->
+<body style="background-color: black;color:white;">  <!-- 문서의 내용물-->
     <h1><a href="index.html">WEB</a></h1>
-    <input type="button" value="night" onclick="
-        document.querySelector('body').style.backgroundColor='powderblue';
-        document.querySelector('body').style.color='white';
-    ">
-    <input type="button" value="day" onclick="
-        document.querySelector('body').style.backgroundColor='white';
-        document.querySelector('body').style.color='black';
-    ">
+
+    <input id="night_day" type="button" value="[DAY]" onclick="nightDayHandler(this)">
 
     <div id="grid">
     <ol> <!-- Orderd list-->
@@ -42,8 +37,7 @@
     please focus your dream!!
     <br><!-- change line-->
     work hard!!!!
-    <br><br>
-
+    <br>
     <img src="IMG/struct.png" width="100%"> <!-- attribute -> src, width -->
 
 
