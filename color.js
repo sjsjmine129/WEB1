@@ -1,23 +1,27 @@
 var Link ={
     changeLinkColor : function(color){
-    var links = document.querySelectorAll('a');
-    var i =0;
-        while(i<links.length){
-            links[i].style.color=color;
-            i=i+1;
-        }
+    // var links = document.querySelectorAll('a');
+    // var i =0;
+    //     while(i<links.length){
+    //         links[i].style.color=color;
+    //         i=i+1;
+    //     }
+
+        // same with jQuery
+        $('a').css('color',color);
     }
 }
 
 var Body ={
     changeColor : function(color){
-        var target = document.querySelector('body');
-        target.style.color=color;
+        // document.querySelector('body').style.color=color;
+
+        $('body').css('color',color);
     },
 
     changeBackgraoundColor : function(color){
-        var target = document.querySelector('body');
-        target.style.backgroundColor=color;
+        // document.querySelector('body').style.backgroundColor=color;
+        $('body').css('backgroundColor',color);
     }
     
 }
