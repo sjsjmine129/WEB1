@@ -2,9 +2,9 @@ body{
     margin :0;
 }
 
-a {           /* a 태그들이 붉은 색이됨*/       
+a {               
     /*color:blueviolet;*/
-    color: blue;
+    color: powderblue;
 }
 
 h1 {

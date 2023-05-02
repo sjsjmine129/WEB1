@@ -28,7 +28,6 @@ var Body ={
 
 
 function nightDayHandler(self){
-
     if( self.value === '[DAY]'){
         Body.changeBackgraoundColor('white')
         Body.changeColor('black')
